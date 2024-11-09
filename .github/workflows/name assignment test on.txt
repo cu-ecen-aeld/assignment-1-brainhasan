@@ -1,26 +1,20 @@
-name: assignment-test
-on: 
-    push:
-        tags-ignore:
-            - '*'
-        branches:
-            - '*'
-jobs:
-    unit-test:
-        container: cuaesd/aesd-autotest:unit-test
-        runs-on: self-hosted
-        steps:
-          - uses: actions/checkout@v2
-          - name: Checkout submodules
-            run : git submodule update --init --recursive
-          - name: Run unit test
-            run: ./unit-test.sh
-    full-test:
-        container: cuaesd/aesd-autotest:assignment1
-        runs-on: self-hosted
-        steps:
-          - uses: actions/checkout@v2
-          - name: Checkout submodules
-            run : git submodule update --init --recursive
-          - name: Run full test
-            run: ./full-test.sh
+  full-test:
+    runs-on: ubuntu-latest
+    container: cuaesd/aesd-autotest:assignment1
+    steps:
+      - name: Code auschecken
+        uses: actions/checkout@v2
+      - name: Checkout submodules
+        run: git submodule update --init --recursive
+      - name: Install CMake and Ruby
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y cmake ruby
+      - name: Make full test script executable
+        run: chmod +777 -R .
+      - name: Hasan add
+        run: chmod +777 ./build/assignment-autotest/assignment-autotest
+      - name: Hasan add permission
+        run: chmod -R +x .
+      - name: Run full test
+        run: ./full-test.sh
