@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/hasan/Desktop/workspace
+CMAKE_SOURCE_DIR = /home/hasan/Desktop/assignment-1-brainhasan
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/hasan/Desktop/workspace/build
+CMAKE_BINARY_DIR = /home/hasan/Desktop/assignment-1-brainhasan/build
 
 # Include any dependencies generated for this target.
 include assignment-autotest/Unity/src/CMakeFiles/unity.dir/depend.make
@@ -70,18 +70,18 @@ include assignment-autotest/Unity/src/CMakeFiles/unity.dir/progress.make
 include assignment-autotest/Unity/src/CMakeFiles/unity.dir/flags.make
 
 assignment-autotest/Unity/src/CMakeFiles/unity.dir/unity.o: assignment-autotest/Unity/src/CMakeFiles/unity.dir/flags.make
-assignment-autotest/Unity/src/CMakeFiles/unity.dir/unity.o: /home/hasan/Desktop/workspace/assignment-autotest/Unity/src/unity.c
+assignment-autotest/Unity/src/CMakeFiles/unity.dir/unity.o: /home/hasan/Desktop/assignment-1-brainhasan/assignment-autotest/Unity/src/unity.c
 assignment-autotest/Unity/src/CMakeFiles/unity.dir/unity.o: assignment-autotest/Unity/src/CMakeFiles/unity.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/hasan/Desktop/workspace/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object assignment-autotest/Unity/src/CMakeFiles/unity.dir/unity.o"
-	cd /home/hasan/Desktop/workspace/build/assignment-autotest/Unity/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT assignment-autotest/Unity/src/CMakeFiles/unity.dir/unity.o -MF CMakeFiles/unity.dir/unity.o.d -o CMakeFiles/unity.dir/unity.o -c /home/hasan/Desktop/workspace/assignment-autotest/Unity/src/unity.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/hasan/Desktop/assignment-1-brainhasan/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object assignment-autotest/Unity/src/CMakeFiles/unity.dir/unity.o"
+	cd /home/hasan/Desktop/assignment-1-brainhasan/build/assignment-autotest/Unity/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT assignment-autotest/Unity/src/CMakeFiles/unity.dir/unity.o -MF CMakeFiles/unity.dir/unity.o.d -o CMakeFiles/unity.dir/unity.o -c /home/hasan/Desktop/assignment-1-brainhasan/assignment-autotest/Unity/src/unity.c
 
 assignment-autotest/Unity/src/CMakeFiles/unity.dir/unity.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/unity.dir/unity.i"
-	cd /home/hasan/Desktop/workspace/build/assignment-autotest/Unity/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/hasan/Desktop/workspace/assignment-autotest/Unity/src/unity.c > CMakeFiles/unity.dir/unity.i
+	cd /home/hasan/Desktop/assignment-1-brainhasan/build/assignment-autotest/Unity/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/hasan/Desktop/assignment-1-brainhasan/assignment-autotest/Unity/src/unity.c > CMakeFiles/unity.dir/unity.i
 
 assignment-autotest/Unity/src/CMakeFiles/unity.dir/unity.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/unity.dir/unity.s"
-	cd /home/hasan/Desktop/workspace/build/assignment-autotest/Unity/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/hasan/Desktop/workspace/assignment-autotest/Unity/src/unity.c -o CMakeFiles/unity.dir/unity.s
+	cd /home/hasan/Desktop/assignment-1-brainhasan/build/assignment-autotest/Unity/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/hasan/Desktop/assignment-1-brainhasan/assignment-autotest/Unity/src/unity.c -o CMakeFiles/unity.dir/unity.s
 
 # Object files for target unity
 unity_OBJECTS = \
@@ -93,19 +93,19 @@ unity_EXTERNAL_OBJECTS =
 assignment-autotest/Unity/src/libunity.a: assignment-autotest/Unity/src/CMakeFiles/unity.dir/unity.o
 assignment-autotest/Unity/src/libunity.a: assignment-autotest/Unity/src/CMakeFiles/unity.dir/build.make
 assignment-autotest/Unity/src/libunity.a: assignment-autotest/Unity/src/CMakeFiles/unity.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/hasan/Desktop/workspace/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C static library libunity.a"
-	cd /home/hasan/Desktop/workspace/build/assignment-autotest/Unity/src && $(CMAKE_COMMAND) -P CMakeFiles/unity.dir/cmake_clean_target.cmake
-	cd /home/hasan/Desktop/workspace/build/assignment-autotest/Unity/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/unity.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/hasan/Desktop/assignment-1-brainhasan/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C static library libunity.a"
+	cd /home/hasan/Desktop/assignment-1-brainhasan/build/assignment-autotest/Unity/src && $(CMAKE_COMMAND) -P CMakeFiles/unity.dir/cmake_clean_target.cmake
+	cd /home/hasan/Desktop/assignment-1-brainhasan/build/assignment-autotest/Unity/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/unity.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 assignment-autotest/Unity/src/CMakeFiles/unity.dir/build: assignment-autotest/Unity/src/libunity.a
 .PHONY : assignment-autotest/Unity/src/CMakeFiles/unity.dir/build
 
 assignment-autotest/Unity/src/CMakeFiles/unity.dir/clean:
-	cd /home/hasan/Desktop/workspace/build/assignment-autotest/Unity/src && $(CMAKE_COMMAND) -P CMakeFiles/unity.dir/cmake_clean.cmake
+	cd /home/hasan/Desktop/assignment-1-brainhasan/build/assignment-autotest/Unity/src && $(CMAKE_COMMAND) -P CMakeFiles/unity.dir/cmake_clean.cmake
 .PHONY : assignment-autotest/Unity/src/CMakeFiles/unity.dir/clean
 
 assignment-autotest/Unity/src/CMakeFiles/unity.dir/depend:
-	cd /home/hasan/Desktop/workspace/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hasan/Desktop/workspace /home/hasan/Desktop/workspace/assignment-autotest/Unity/src /home/hasan/Desktop/workspace/build /home/hasan/Desktop/workspace/build/assignment-autotest/Unity/src /home/hasan/Desktop/workspace/build/assignment-autotest/Unity/src/CMakeFiles/unity.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/hasan/Desktop/assignment-1-brainhasan/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hasan/Desktop/assignment-1-brainhasan /home/hasan/Desktop/assignment-1-brainhasan/assignment-autotest/Unity/src /home/hasan/Desktop/assignment-1-brainhasan/build /home/hasan/Desktop/assignment-1-brainhasan/build/assignment-autotest/Unity/src /home/hasan/Desktop/assignment-1-brainhasan/build/assignment-autotest/Unity/src/CMakeFiles/unity.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : assignment-autotest/Unity/src/CMakeFiles/unity.dir/depend
 

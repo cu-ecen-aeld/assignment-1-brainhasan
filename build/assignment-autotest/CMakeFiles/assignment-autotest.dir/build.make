@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/hasan/Desktop/workspace
+CMAKE_SOURCE_DIR = /home/hasan/Desktop/assignment-1-brainhasan
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/hasan/Desktop/workspace/build
+CMAKE_BINARY_DIR = /home/hasan/Desktop/assignment-1-brainhasan/build
 
 # Include any dependencies generated for this target.
 include assignment-autotest/CMakeFiles/assignment-autotest.dir/depend.make
@@ -69,132 +69,132 @@ include assignment-autotest/CMakeFiles/assignment-autotest.dir/progress.make
 # Include the compile flags for this target's objects.
 include assignment-autotest/CMakeFiles/assignment-autotest.dir/flags.make
 
-/home/hasan/Desktop/workspace/assignment-autotest/test/assignment1/Test_hello_Runner.c: /home/hasan/Desktop/workspace/assignment-autotest/test/assignment1/Test_hello.c
-/home/hasan/Desktop/workspace/assignment-autotest/test/assignment1/Test_hello_Runner.c: /home/hasan/Desktop/workspace/assignment-autotest/test/assignment1/Test_assignment_validate.c
-/home/hasan/Desktop/workspace/assignment-autotest/test/assignment1/Test_hello_Runner.c: /home/hasan/Desktop/workspace/student-test/assignment1/Test_validate_username.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/hasan/Desktop/workspace/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating /home/hasan/Desktop/workspace/assignment-autotest/test/assignment1/Test_hello_Runner.c, /home/hasan/Desktop/workspace/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c, /home/hasan/Desktop/workspace/student-test/assignment1/Test_validate_username_Runner.c, /home/hasan/Desktop/workspace/assignment-autotest/test/unity_runner.c"
-	cd /home/hasan/Desktop/workspace/build/assignment-autotest && /home/hasan/Desktop/workspace/assignment-autotest/auto_generate.sh test/assignment1/Test_hello.c test/assignment1/Test_assignment_validate.c ../student-test/assignment1/Test_validate_username.c
+/home/hasan/Desktop/assignment-1-brainhasan/assignment-autotest/test/assignment1/Test_hello_Runner.c: /home/hasan/Desktop/assignment-1-brainhasan/assignment-autotest/test/assignment1/Test_hello.c
+/home/hasan/Desktop/assignment-1-brainhasan/assignment-autotest/test/assignment1/Test_hello_Runner.c: /home/hasan/Desktop/assignment-1-brainhasan/assignment-autotest/test/assignment1/Test_assignment_validate.c
+/home/hasan/Desktop/assignment-1-brainhasan/assignment-autotest/test/assignment1/Test_hello_Runner.c: /home/hasan/Desktop/assignment-1-brainhasan/student-test/assignment1/Test_validate_username.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/hasan/Desktop/assignment-1-brainhasan/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating /home/hasan/Desktop/assignment-1-brainhasan/assignment-autotest/test/assignment1/Test_hello_Runner.c, /home/hasan/Desktop/assignment-1-brainhasan/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c, /home/hasan/Desktop/assignment-1-brainhasan/student-test/assignment1/Test_validate_username_Runner.c, /home/hasan/Desktop/assignment-1-brainhasan/assignment-autotest/test/unity_runner.c"
+	cd /home/hasan/Desktop/assignment-1-brainhasan/build/assignment-autotest && /home/hasan/Desktop/assignment-1-brainhasan/assignment-autotest/auto_generate.sh test/assignment1/Test_hello.c test/assignment1/Test_assignment_validate.c ../student-test/assignment1/Test_validate_username.c
 
-/home/hasan/Desktop/workspace/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c: /home/hasan/Desktop/workspace/assignment-autotest/test/assignment1/Test_hello_Runner.c
-	@$(CMAKE_COMMAND) -E touch_nocreate /home/hasan/Desktop/workspace/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c
+/home/hasan/Desktop/assignment-1-brainhasan/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c: /home/hasan/Desktop/assignment-1-brainhasan/assignment-autotest/test/assignment1/Test_hello_Runner.c
+	@$(CMAKE_COMMAND) -E touch_nocreate /home/hasan/Desktop/assignment-1-brainhasan/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c
 
-/home/hasan/Desktop/workspace/student-test/assignment1/Test_validate_username_Runner.c: /home/hasan/Desktop/workspace/assignment-autotest/test/assignment1/Test_hello_Runner.c
-	@$(CMAKE_COMMAND) -E touch_nocreate /home/hasan/Desktop/workspace/student-test/assignment1/Test_validate_username_Runner.c
+/home/hasan/Desktop/assignment-1-brainhasan/student-test/assignment1/Test_validate_username_Runner.c: /home/hasan/Desktop/assignment-1-brainhasan/assignment-autotest/test/assignment1/Test_hello_Runner.c
+	@$(CMAKE_COMMAND) -E touch_nocreate /home/hasan/Desktop/assignment-1-brainhasan/student-test/assignment1/Test_validate_username_Runner.c
 
-/home/hasan/Desktop/workspace/assignment-autotest/test/unity_runner.c: /home/hasan/Desktop/workspace/assignment-autotest/test/assignment1/Test_hello_Runner.c
-	@$(CMAKE_COMMAND) -E touch_nocreate /home/hasan/Desktop/workspace/assignment-autotest/test/unity_runner.c
+/home/hasan/Desktop/assignment-1-brainhasan/assignment-autotest/test/unity_runner.c: /home/hasan/Desktop/assignment-1-brainhasan/assignment-autotest/test/assignment1/Test_hello_Runner.c
+	@$(CMAKE_COMMAND) -E touch_nocreate /home/hasan/Desktop/assignment-1-brainhasan/assignment-autotest/test/unity_runner.c
 
 assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello.o: assignment-autotest/CMakeFiles/assignment-autotest.dir/flags.make
-assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello.o: /home/hasan/Desktop/workspace/assignment-autotest/test/assignment1/Test_hello.c
+assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello.o: /home/hasan/Desktop/assignment-1-brainhasan/assignment-autotest/test/assignment1/Test_hello.c
 assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello.o: assignment-autotest/CMakeFiles/assignment-autotest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/hasan/Desktop/workspace/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello.o"
-	cd /home/hasan/Desktop/workspace/build/assignment-autotest && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello.o -MF CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello.o.d -o CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello.o -c /home/hasan/Desktop/workspace/assignment-autotest/test/assignment1/Test_hello.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/hasan/Desktop/assignment-1-brainhasan/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello.o"
+	cd /home/hasan/Desktop/assignment-1-brainhasan/build/assignment-autotest && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello.o -MF CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello.o.d -o CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello.o -c /home/hasan/Desktop/assignment-1-brainhasan/assignment-autotest/test/assignment1/Test_hello.c
 
 assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello.i"
-	cd /home/hasan/Desktop/workspace/build/assignment-autotest && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/hasan/Desktop/workspace/assignment-autotest/test/assignment1/Test_hello.c > CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello.i
+	cd /home/hasan/Desktop/assignment-1-brainhasan/build/assignment-autotest && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/hasan/Desktop/assignment-1-brainhasan/assignment-autotest/test/assignment1/Test_hello.c > CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello.i
 
 assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello.s"
-	cd /home/hasan/Desktop/workspace/build/assignment-autotest && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/hasan/Desktop/workspace/assignment-autotest/test/assignment1/Test_hello.c -o CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello.s
+	cd /home/hasan/Desktop/assignment-1-brainhasan/build/assignment-autotest && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/hasan/Desktop/assignment-1-brainhasan/assignment-autotest/test/assignment1/Test_hello.c -o CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello.s
 
 assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate.o: assignment-autotest/CMakeFiles/assignment-autotest.dir/flags.make
-assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate.o: /home/hasan/Desktop/workspace/assignment-autotest/test/assignment1/Test_assignment_validate.c
+assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate.o: /home/hasan/Desktop/assignment-1-brainhasan/assignment-autotest/test/assignment1/Test_assignment_validate.c
 assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate.o: assignment-autotest/CMakeFiles/assignment-autotest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/hasan/Desktop/workspace/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate.o"
-	cd /home/hasan/Desktop/workspace/build/assignment-autotest && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate.o -MF CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate.o.d -o CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate.o -c /home/hasan/Desktop/workspace/assignment-autotest/test/assignment1/Test_assignment_validate.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/hasan/Desktop/assignment-1-brainhasan/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate.o"
+	cd /home/hasan/Desktop/assignment-1-brainhasan/build/assignment-autotest && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate.o -MF CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate.o.d -o CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate.o -c /home/hasan/Desktop/assignment-1-brainhasan/assignment-autotest/test/assignment1/Test_assignment_validate.c
 
 assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate.i"
-	cd /home/hasan/Desktop/workspace/build/assignment-autotest && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/hasan/Desktop/workspace/assignment-autotest/test/assignment1/Test_assignment_validate.c > CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate.i
+	cd /home/hasan/Desktop/assignment-1-brainhasan/build/assignment-autotest && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/hasan/Desktop/assignment-1-brainhasan/assignment-autotest/test/assignment1/Test_assignment_validate.c > CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate.i
 
 assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate.s"
-	cd /home/hasan/Desktop/workspace/build/assignment-autotest && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/hasan/Desktop/workspace/assignment-autotest/test/assignment1/Test_assignment_validate.c -o CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate.s
+	cd /home/hasan/Desktop/assignment-1-brainhasan/build/assignment-autotest && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/hasan/Desktop/assignment-1-brainhasan/assignment-autotest/test/assignment1/Test_assignment_validate.c -o CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate.s
 
 assignment-autotest/CMakeFiles/assignment-autotest.dir/__/student-test/assignment1/Test_validate_username.o: assignment-autotest/CMakeFiles/assignment-autotest.dir/flags.make
-assignment-autotest/CMakeFiles/assignment-autotest.dir/__/student-test/assignment1/Test_validate_username.o: /home/hasan/Desktop/workspace/student-test/assignment1/Test_validate_username.c
+assignment-autotest/CMakeFiles/assignment-autotest.dir/__/student-test/assignment1/Test_validate_username.o: /home/hasan/Desktop/assignment-1-brainhasan/student-test/assignment1/Test_validate_username.c
 assignment-autotest/CMakeFiles/assignment-autotest.dir/__/student-test/assignment1/Test_validate_username.o: assignment-autotest/CMakeFiles/assignment-autotest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/hasan/Desktop/workspace/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/student-test/assignment1/Test_validate_username.o"
-	cd /home/hasan/Desktop/workspace/build/assignment-autotest && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT assignment-autotest/CMakeFiles/assignment-autotest.dir/__/student-test/assignment1/Test_validate_username.o -MF CMakeFiles/assignment-autotest.dir/__/student-test/assignment1/Test_validate_username.o.d -o CMakeFiles/assignment-autotest.dir/__/student-test/assignment1/Test_validate_username.o -c /home/hasan/Desktop/workspace/student-test/assignment1/Test_validate_username.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/hasan/Desktop/assignment-1-brainhasan/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/student-test/assignment1/Test_validate_username.o"
+	cd /home/hasan/Desktop/assignment-1-brainhasan/build/assignment-autotest && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT assignment-autotest/CMakeFiles/assignment-autotest.dir/__/student-test/assignment1/Test_validate_username.o -MF CMakeFiles/assignment-autotest.dir/__/student-test/assignment1/Test_validate_username.o.d -o CMakeFiles/assignment-autotest.dir/__/student-test/assignment1/Test_validate_username.o -c /home/hasan/Desktop/assignment-1-brainhasan/student-test/assignment1/Test_validate_username.c
 
 assignment-autotest/CMakeFiles/assignment-autotest.dir/__/student-test/assignment1/Test_validate_username.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/assignment-autotest.dir/__/student-test/assignment1/Test_validate_username.i"
-	cd /home/hasan/Desktop/workspace/build/assignment-autotest && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/hasan/Desktop/workspace/student-test/assignment1/Test_validate_username.c > CMakeFiles/assignment-autotest.dir/__/student-test/assignment1/Test_validate_username.i
+	cd /home/hasan/Desktop/assignment-1-brainhasan/build/assignment-autotest && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/hasan/Desktop/assignment-1-brainhasan/student-test/assignment1/Test_validate_username.c > CMakeFiles/assignment-autotest.dir/__/student-test/assignment1/Test_validate_username.i
 
 assignment-autotest/CMakeFiles/assignment-autotest.dir/__/student-test/assignment1/Test_validate_username.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/assignment-autotest.dir/__/student-test/assignment1/Test_validate_username.s"
-	cd /home/hasan/Desktop/workspace/build/assignment-autotest && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/hasan/Desktop/workspace/student-test/assignment1/Test_validate_username.c -o CMakeFiles/assignment-autotest.dir/__/student-test/assignment1/Test_validate_username.s
+	cd /home/hasan/Desktop/assignment-1-brainhasan/build/assignment-autotest && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/hasan/Desktop/assignment-1-brainhasan/student-test/assignment1/Test_validate_username.c -o CMakeFiles/assignment-autotest.dir/__/student-test/assignment1/Test_validate_username.s
 
 assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello_Runner.o: assignment-autotest/CMakeFiles/assignment-autotest.dir/flags.make
-assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello_Runner.o: /home/hasan/Desktop/workspace/assignment-autotest/test/assignment1/Test_hello_Runner.c
+assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello_Runner.o: /home/hasan/Desktop/assignment-1-brainhasan/assignment-autotest/test/assignment1/Test_hello_Runner.c
 assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello_Runner.o: assignment-autotest/CMakeFiles/assignment-autotest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/hasan/Desktop/workspace/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello_Runner.o"
-	cd /home/hasan/Desktop/workspace/build/assignment-autotest && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello_Runner.o -MF CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello_Runner.o.d -o CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello_Runner.o -c /home/hasan/Desktop/workspace/assignment-autotest/test/assignment1/Test_hello_Runner.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/hasan/Desktop/assignment-1-brainhasan/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello_Runner.o"
+	cd /home/hasan/Desktop/assignment-1-brainhasan/build/assignment-autotest && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello_Runner.o -MF CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello_Runner.o.d -o CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello_Runner.o -c /home/hasan/Desktop/assignment-1-brainhasan/assignment-autotest/test/assignment1/Test_hello_Runner.c
 
 assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello_Runner.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello_Runner.i"
-	cd /home/hasan/Desktop/workspace/build/assignment-autotest && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/hasan/Desktop/workspace/assignment-autotest/test/assignment1/Test_hello_Runner.c > CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello_Runner.i
+	cd /home/hasan/Desktop/assignment-1-brainhasan/build/assignment-autotest && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/hasan/Desktop/assignment-1-brainhasan/assignment-autotest/test/assignment1/Test_hello_Runner.c > CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello_Runner.i
 
 assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello_Runner.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello_Runner.s"
-	cd /home/hasan/Desktop/workspace/build/assignment-autotest && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/hasan/Desktop/workspace/assignment-autotest/test/assignment1/Test_hello_Runner.c -o CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello_Runner.s
+	cd /home/hasan/Desktop/assignment-1-brainhasan/build/assignment-autotest && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/hasan/Desktop/assignment-1-brainhasan/assignment-autotest/test/assignment1/Test_hello_Runner.c -o CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello_Runner.s
 
 assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate_Runner.o: assignment-autotest/CMakeFiles/assignment-autotest.dir/flags.make
-assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate_Runner.o: /home/hasan/Desktop/workspace/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c
+assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate_Runner.o: /home/hasan/Desktop/assignment-1-brainhasan/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c
 assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate_Runner.o: assignment-autotest/CMakeFiles/assignment-autotest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/hasan/Desktop/workspace/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate_Runner.o"
-	cd /home/hasan/Desktop/workspace/build/assignment-autotest && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate_Runner.o -MF CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate_Runner.o.d -o CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate_Runner.o -c /home/hasan/Desktop/workspace/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/hasan/Desktop/assignment-1-brainhasan/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate_Runner.o"
+	cd /home/hasan/Desktop/assignment-1-brainhasan/build/assignment-autotest && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate_Runner.o -MF CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate_Runner.o.d -o CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate_Runner.o -c /home/hasan/Desktop/assignment-1-brainhasan/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c
 
 assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate_Runner.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate_Runner.i"
-	cd /home/hasan/Desktop/workspace/build/assignment-autotest && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/hasan/Desktop/workspace/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c > CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate_Runner.i
+	cd /home/hasan/Desktop/assignment-1-brainhasan/build/assignment-autotest && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/hasan/Desktop/assignment-1-brainhasan/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c > CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate_Runner.i
 
 assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate_Runner.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate_Runner.s"
-	cd /home/hasan/Desktop/workspace/build/assignment-autotest && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/hasan/Desktop/workspace/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c -o CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate_Runner.s
+	cd /home/hasan/Desktop/assignment-1-brainhasan/build/assignment-autotest && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/hasan/Desktop/assignment-1-brainhasan/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c -o CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate_Runner.s
 
 assignment-autotest/CMakeFiles/assignment-autotest.dir/__/student-test/assignment1/Test_validate_username_Runner.o: assignment-autotest/CMakeFiles/assignment-autotest.dir/flags.make
-assignment-autotest/CMakeFiles/assignment-autotest.dir/__/student-test/assignment1/Test_validate_username_Runner.o: /home/hasan/Desktop/workspace/student-test/assignment1/Test_validate_username_Runner.c
+assignment-autotest/CMakeFiles/assignment-autotest.dir/__/student-test/assignment1/Test_validate_username_Runner.o: /home/hasan/Desktop/assignment-1-brainhasan/student-test/assignment1/Test_validate_username_Runner.c
 assignment-autotest/CMakeFiles/assignment-autotest.dir/__/student-test/assignment1/Test_validate_username_Runner.o: assignment-autotest/CMakeFiles/assignment-autotest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/hasan/Desktop/workspace/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/student-test/assignment1/Test_validate_username_Runner.o"
-	cd /home/hasan/Desktop/workspace/build/assignment-autotest && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT assignment-autotest/CMakeFiles/assignment-autotest.dir/__/student-test/assignment1/Test_validate_username_Runner.o -MF CMakeFiles/assignment-autotest.dir/__/student-test/assignment1/Test_validate_username_Runner.o.d -o CMakeFiles/assignment-autotest.dir/__/student-test/assignment1/Test_validate_username_Runner.o -c /home/hasan/Desktop/workspace/student-test/assignment1/Test_validate_username_Runner.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/hasan/Desktop/assignment-1-brainhasan/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/student-test/assignment1/Test_validate_username_Runner.o"
+	cd /home/hasan/Desktop/assignment-1-brainhasan/build/assignment-autotest && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT assignment-autotest/CMakeFiles/assignment-autotest.dir/__/student-test/assignment1/Test_validate_username_Runner.o -MF CMakeFiles/assignment-autotest.dir/__/student-test/assignment1/Test_validate_username_Runner.o.d -o CMakeFiles/assignment-autotest.dir/__/student-test/assignment1/Test_validate_username_Runner.o -c /home/hasan/Desktop/assignment-1-brainhasan/student-test/assignment1/Test_validate_username_Runner.c
 
 assignment-autotest/CMakeFiles/assignment-autotest.dir/__/student-test/assignment1/Test_validate_username_Runner.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/assignment-autotest.dir/__/student-test/assignment1/Test_validate_username_Runner.i"
-	cd /home/hasan/Desktop/workspace/build/assignment-autotest && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/hasan/Desktop/workspace/student-test/assignment1/Test_validate_username_Runner.c > CMakeFiles/assignment-autotest.dir/__/student-test/assignment1/Test_validate_username_Runner.i
+	cd /home/hasan/Desktop/assignment-1-brainhasan/build/assignment-autotest && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/hasan/Desktop/assignment-1-brainhasan/student-test/assignment1/Test_validate_username_Runner.c > CMakeFiles/assignment-autotest.dir/__/student-test/assignment1/Test_validate_username_Runner.i
 
 assignment-autotest/CMakeFiles/assignment-autotest.dir/__/student-test/assignment1/Test_validate_username_Runner.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/assignment-autotest.dir/__/student-test/assignment1/Test_validate_username_Runner.s"
-	cd /home/hasan/Desktop/workspace/build/assignment-autotest && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/hasan/Desktop/workspace/student-test/assignment1/Test_validate_username_Runner.c -o CMakeFiles/assignment-autotest.dir/__/student-test/assignment1/Test_validate_username_Runner.s
+	cd /home/hasan/Desktop/assignment-1-brainhasan/build/assignment-autotest && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/hasan/Desktop/assignment-1-brainhasan/student-test/assignment1/Test_validate_username_Runner.c -o CMakeFiles/assignment-autotest.dir/__/student-test/assignment1/Test_validate_username_Runner.s
 
 assignment-autotest/CMakeFiles/assignment-autotest.dir/__/examples/autotest-validate/autotest-validate.o: assignment-autotest/CMakeFiles/assignment-autotest.dir/flags.make
-assignment-autotest/CMakeFiles/assignment-autotest.dir/__/examples/autotest-validate/autotest-validate.o: /home/hasan/Desktop/workspace/examples/autotest-validate/autotest-validate.c
+assignment-autotest/CMakeFiles/assignment-autotest.dir/__/examples/autotest-validate/autotest-validate.o: /home/hasan/Desktop/assignment-1-brainhasan/examples/autotest-validate/autotest-validate.c
 assignment-autotest/CMakeFiles/assignment-autotest.dir/__/examples/autotest-validate/autotest-validate.o: assignment-autotest/CMakeFiles/assignment-autotest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/hasan/Desktop/workspace/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/examples/autotest-validate/autotest-validate.o"
-	cd /home/hasan/Desktop/workspace/build/assignment-autotest && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT assignment-autotest/CMakeFiles/assignment-autotest.dir/__/examples/autotest-validate/autotest-validate.o -MF CMakeFiles/assignment-autotest.dir/__/examples/autotest-validate/autotest-validate.o.d -o CMakeFiles/assignment-autotest.dir/__/examples/autotest-validate/autotest-validate.o -c /home/hasan/Desktop/workspace/examples/autotest-validate/autotest-validate.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/hasan/Desktop/assignment-1-brainhasan/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/examples/autotest-validate/autotest-validate.o"
+	cd /home/hasan/Desktop/assignment-1-brainhasan/build/assignment-autotest && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT assignment-autotest/CMakeFiles/assignment-autotest.dir/__/examples/autotest-validate/autotest-validate.o -MF CMakeFiles/assignment-autotest.dir/__/examples/autotest-validate/autotest-validate.o.d -o CMakeFiles/assignment-autotest.dir/__/examples/autotest-validate/autotest-validate.o -c /home/hasan/Desktop/assignment-1-brainhasan/examples/autotest-validate/autotest-validate.c
 
 assignment-autotest/CMakeFiles/assignment-autotest.dir/__/examples/autotest-validate/autotest-validate.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/assignment-autotest.dir/__/examples/autotest-validate/autotest-validate.i"
-	cd /home/hasan/Desktop/workspace/build/assignment-autotest && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/hasan/Desktop/workspace/examples/autotest-validate/autotest-validate.c > CMakeFiles/assignment-autotest.dir/__/examples/autotest-validate/autotest-validate.i
+	cd /home/hasan/Desktop/assignment-1-brainhasan/build/assignment-autotest && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/hasan/Desktop/assignment-1-brainhasan/examples/autotest-validate/autotest-validate.c > CMakeFiles/assignment-autotest.dir/__/examples/autotest-validate/autotest-validate.i
 
 assignment-autotest/CMakeFiles/assignment-autotest.dir/__/examples/autotest-validate/autotest-validate.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/assignment-autotest.dir/__/examples/autotest-validate/autotest-validate.s"
-	cd /home/hasan/Desktop/workspace/build/assignment-autotest && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/hasan/Desktop/workspace/examples/autotest-validate/autotest-validate.c -o CMakeFiles/assignment-autotest.dir/__/examples/autotest-validate/autotest-validate.s
+	cd /home/hasan/Desktop/assignment-1-brainhasan/build/assignment-autotest && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/hasan/Desktop/assignment-1-brainhasan/examples/autotest-validate/autotest-validate.c -o CMakeFiles/assignment-autotest.dir/__/examples/autotest-validate/autotest-validate.s
 
 assignment-autotest/CMakeFiles/assignment-autotest.dir/test/unity_runner.o: assignment-autotest/CMakeFiles/assignment-autotest.dir/flags.make
-assignment-autotest/CMakeFiles/assignment-autotest.dir/test/unity_runner.o: /home/hasan/Desktop/workspace/assignment-autotest/test/unity_runner.c
+assignment-autotest/CMakeFiles/assignment-autotest.dir/test/unity_runner.o: /home/hasan/Desktop/assignment-1-brainhasan/assignment-autotest/test/unity_runner.c
 assignment-autotest/CMakeFiles/assignment-autotest.dir/test/unity_runner.o: assignment-autotest/CMakeFiles/assignment-autotest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/hasan/Desktop/workspace/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/unity_runner.o"
-	cd /home/hasan/Desktop/workspace/build/assignment-autotest && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT assignment-autotest/CMakeFiles/assignment-autotest.dir/test/unity_runner.o -MF CMakeFiles/assignment-autotest.dir/test/unity_runner.o.d -o CMakeFiles/assignment-autotest.dir/test/unity_runner.o -c /home/hasan/Desktop/workspace/assignment-autotest/test/unity_runner.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/hasan/Desktop/assignment-1-brainhasan/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/unity_runner.o"
+	cd /home/hasan/Desktop/assignment-1-brainhasan/build/assignment-autotest && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT assignment-autotest/CMakeFiles/assignment-autotest.dir/test/unity_runner.o -MF CMakeFiles/assignment-autotest.dir/test/unity_runner.o.d -o CMakeFiles/assignment-autotest.dir/test/unity_runner.o -c /home/hasan/Desktop/assignment-1-brainhasan/assignment-autotest/test/unity_runner.c
 
 assignment-autotest/CMakeFiles/assignment-autotest.dir/test/unity_runner.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/assignment-autotest.dir/test/unity_runner.i"
-	cd /home/hasan/Desktop/workspace/build/assignment-autotest && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/hasan/Desktop/workspace/assignment-autotest/test/unity_runner.c > CMakeFiles/assignment-autotest.dir/test/unity_runner.i
+	cd /home/hasan/Desktop/assignment-1-brainhasan/build/assignment-autotest && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/hasan/Desktop/assignment-1-brainhasan/assignment-autotest/test/unity_runner.c > CMakeFiles/assignment-autotest.dir/test/unity_runner.i
 
 assignment-autotest/CMakeFiles/assignment-autotest.dir/test/unity_runner.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/assignment-autotest.dir/test/unity_runner.s"
-	cd /home/hasan/Desktop/workspace/build/assignment-autotest && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/hasan/Desktop/workspace/assignment-autotest/test/unity_runner.c -o CMakeFiles/assignment-autotest.dir/test/unity_runner.s
+	cd /home/hasan/Desktop/assignment-1-brainhasan/build/assignment-autotest && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/hasan/Desktop/assignment-1-brainhasan/assignment-autotest/test/unity_runner.c -o CMakeFiles/assignment-autotest.dir/test/unity_runner.s
 
 # Object files for target assignment-autotest
 assignment__autotest_OBJECTS = \
@@ -221,21 +221,21 @@ assignment-autotest/assignment-autotest: assignment-autotest/CMakeFiles/assignme
 assignment-autotest/assignment-autotest: assignment-autotest/CMakeFiles/assignment-autotest.dir/build.make
 assignment-autotest/assignment-autotest: assignment-autotest/Unity/src/libunity.a
 assignment-autotest/assignment-autotest: assignment-autotest/CMakeFiles/assignment-autotest.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/hasan/Desktop/workspace/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking C executable assignment-autotest"
-	cd /home/hasan/Desktop/workspace/build/assignment-autotest && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/assignment-autotest.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/hasan/Desktop/assignment-1-brainhasan/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking C executable assignment-autotest"
+	cd /home/hasan/Desktop/assignment-1-brainhasan/build/assignment-autotest && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/assignment-autotest.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 assignment-autotest/CMakeFiles/assignment-autotest.dir/build: assignment-autotest/assignment-autotest
 .PHONY : assignment-autotest/CMakeFiles/assignment-autotest.dir/build
 
 assignment-autotest/CMakeFiles/assignment-autotest.dir/clean:
-	cd /home/hasan/Desktop/workspace/build/assignment-autotest && $(CMAKE_COMMAND) -P CMakeFiles/assignment-autotest.dir/cmake_clean.cmake
+	cd /home/hasan/Desktop/assignment-1-brainhasan/build/assignment-autotest && $(CMAKE_COMMAND) -P CMakeFiles/assignment-autotest.dir/cmake_clean.cmake
 .PHONY : assignment-autotest/CMakeFiles/assignment-autotest.dir/clean
 
-assignment-autotest/CMakeFiles/assignment-autotest.dir/depend: /home/hasan/Desktop/workspace/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c
-assignment-autotest/CMakeFiles/assignment-autotest.dir/depend: /home/hasan/Desktop/workspace/assignment-autotest/test/assignment1/Test_hello_Runner.c
-assignment-autotest/CMakeFiles/assignment-autotest.dir/depend: /home/hasan/Desktop/workspace/assignment-autotest/test/unity_runner.c
-assignment-autotest/CMakeFiles/assignment-autotest.dir/depend: /home/hasan/Desktop/workspace/student-test/assignment1/Test_validate_username_Runner.c
-	cd /home/hasan/Desktop/workspace/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hasan/Desktop/workspace /home/hasan/Desktop/workspace/assignment-autotest /home/hasan/Desktop/workspace/build /home/hasan/Desktop/workspace/build/assignment-autotest /home/hasan/Desktop/workspace/build/assignment-autotest/CMakeFiles/assignment-autotest.dir/DependInfo.cmake "--color=$(COLOR)"
+assignment-autotest/CMakeFiles/assignment-autotest.dir/depend: /home/hasan/Desktop/assignment-1-brainhasan/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c
+assignment-autotest/CMakeFiles/assignment-autotest.dir/depend: /home/hasan/Desktop/assignment-1-brainhasan/assignment-autotest/test/assignment1/Test_hello_Runner.c
+assignment-autotest/CMakeFiles/assignment-autotest.dir/depend: /home/hasan/Desktop/assignment-1-brainhasan/assignment-autotest/test/unity_runner.c
+assignment-autotest/CMakeFiles/assignment-autotest.dir/depend: /home/hasan/Desktop/assignment-1-brainhasan/student-test/assignment1/Test_validate_username_Runner.c
+	cd /home/hasan/Desktop/assignment-1-brainhasan/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hasan/Desktop/assignment-1-brainhasan /home/hasan/Desktop/assignment-1-brainhasan/assignment-autotest /home/hasan/Desktop/assignment-1-brainhasan/build /home/hasan/Desktop/assignment-1-brainhasan/build/assignment-autotest /home/hasan/Desktop/assignment-1-brainhasan/build/assignment-autotest/CMakeFiles/assignment-autotest.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : assignment-autotest/CMakeFiles/assignment-autotest.dir/depend
 

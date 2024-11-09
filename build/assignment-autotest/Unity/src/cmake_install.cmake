@@ -1,4 +1,4 @@
-# Install script for directory: /home/hasan/Desktop/workspace/assignment-autotest/Unity/src
+# Install script for directory: /home/hasan/Desktop/assignment-1-brainhasan/assignment-autotest/Unity/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -44,13 +44,13 @@ endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/hasan/Desktop/workspace/assignment-autotest/Unity/src/libunity.a")
+   "/home/hasan/Desktop/assignment-1-brainhasan/assignment-autotest/Unity/src/libunity.a")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-  file(INSTALL DESTINATION "/home/hasan/Desktop/workspace/assignment-autotest/Unity/src" TYPE STATIC_LIBRARY FILES "/home/hasan/Desktop/workspace/build/assignment-autotest/Unity/src/libunity.a")
+  file(INSTALL DESTINATION "/home/hasan/Desktop/assignment-1-brainhasan/assignment-autotest/Unity/src" TYPE STATIC_LIBRARY FILES "/home/hasan/Desktop/assignment-1-brainhasan/build/assignment-autotest/Unity/src/libunity.a")
 endif()
 

@@ -1,4 +1,4 @@
-# Install script for directory: /home/hasan/Desktop/workspace/assignment-autotest/Unity
+# Install script for directory: /home/hasan/Desktop/assignment-1-brainhasan/assignment-autotest/Unity
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -43,14 +43,14 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/src" TYPE DIRECTORY FILES "/home/hasan/Desktop/workspace/assignment-autotest/Unity/src/")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/src" TYPE DIRECTORY FILES "/home/hasan/Desktop/assignment-1-brainhasan/assignment-autotest/Unity/src/")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/share/unityConfig/cmake/unityConfig.cmake")
     file(DIFFERENT _cmake_export_file_changed FILES
          "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/share/unityConfig/cmake/unityConfig.cmake"
-         "/home/hasan/Desktop/workspace/build/assignment-autotest/Unity/CMakeFiles/Export/48c7e70bc4cd97bc87a4e6ab65f93d66/unityConfig.cmake")
+         "/home/hasan/Desktop/assignment-1-brainhasan/build/assignment-autotest/Unity/CMakeFiles/Export/48c7e70bc4cd97bc87a4e6ab65f93d66/unityConfig.cmake")
     if(_cmake_export_file_changed)
       file(GLOB _cmake_old_config_files "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/share/unityConfig/cmake/unityConfig-*.cmake")
       if(_cmake_old_config_files)
@@ -63,15 +63,15 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
     endif()
     unset(_cmake_export_file_changed)
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/unityConfig/cmake" TYPE FILE FILES "/home/hasan/Desktop/workspace/build/assignment-autotest/Unity/CMakeFiles/Export/48c7e70bc4cd97bc87a4e6ab65f93d66/unityConfig.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/unityConfig/cmake" TYPE FILE FILES "/home/hasan/Desktop/assignment-1-brainhasan/build/assignment-autotest/Unity/CMakeFiles/Export/48c7e70bc4cd97bc87a4e6ab65f93d66/unityConfig.cmake")
   if(CMAKE_INSTALL_CONFIG_NAME MATCHES "^()$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/unityConfig/cmake" TYPE FILE FILES "/home/hasan/Desktop/workspace/build/assignment-autotest/Unity/CMakeFiles/Export/48c7e70bc4cd97bc87a4e6ab65f93d66/unityConfig-noconfig.cmake")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/unityConfig/cmake" TYPE FILE FILES "/home/hasan/Desktop/assignment-1-brainhasan/build/assignment-autotest/Unity/CMakeFiles/Export/48c7e70bc4cd97bc87a4e6ab65f93d66/unityConfig-noconfig.cmake")
   endif()
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/hasan/Desktop/workspace/build/assignment-autotest/Unity/src/cmake_install.cmake")
+  include("/home/hasan/Desktop/assignment-1-brainhasan/build/assignment-autotest/Unity/src/cmake_install.cmake")
 
 endif()
 

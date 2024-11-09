@@ -1,4 +1,4 @@
-# Install script for directory: /home/hasan/Desktop/workspace
+# Install script for directory: /home/hasan/Desktop/assignment-1-brainhasan
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -44,7 +44,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/hasan/Desktop/workspace/build/assignment-autotest/cmake_install.cmake")
+  include("/home/hasan/Desktop/assignment-1-brainhasan/build/assignment-autotest/cmake_install.cmake")
 
 endif()
 
@@ -56,5 +56,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/hasan/Desktop/workspace/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/hasan/Desktop/assignment-1-brainhasan/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

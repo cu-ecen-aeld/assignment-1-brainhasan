@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/hasan/Desktop/workspace/assignment-autotest/Unity/src/unity.c" "assignment-autotest/Unity/src/CMakeFiles/unity.dir/unity.o" "gcc" "assignment-autotest/Unity/src/CMakeFiles/unity.dir/unity.o.d"
+  "/home/hasan/Desktop/assignment-1-brainhasan/assignment-autotest/Unity/src/unity.c" "assignment-autotest/Unity/src/CMakeFiles/unity.dir/unity.o" "gcc" "assignment-autotest/Unity/src/CMakeFiles/unity.dir/unity.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

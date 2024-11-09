@@ -1,7 +1,7 @@
 assignment-autotest/CMakeFiles/assignment-autotest.dir/__/examples/autotest-validate/autotest-validate.o: \
- /home/hasan/Desktop/workspace/examples/autotest-validate/autotest-validate.c \
+ /home/hasan/Desktop/assignment-1-brainhasan/examples/autotest-validate/autotest-validate.c \
  /usr/include/stdc-predef.h \
- /home/hasan/Desktop/workspace/examples/autotest-validate/autotest-validate.h \
+ /home/hasan/Desktop/assignment-1-brainhasan/examples/autotest-validate/autotest-validate.h \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdbool.h /usr/include/stdio.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \

@@ -78,7 +78,7 @@ static void run_test(UnityTestFunction func, const char* name, int line_num)
  int Test_validate_username_main(void);
 int Test_validate_username_main(void)
 {
-  UnityBegin("/home/hasan/Desktop/workspace/assignment-autotest/../student-test/assignment1/Test_validate_username.c");
+  UnityBegin("/home/hasan/Desktop/assignment-1-brainhasan/assignment-autotest/../student-test/assignment1/Test_validate_username.c");
   run_test(test_validate_my_username, "test_validate_my_username", 15);
 
   return UnityEnd();

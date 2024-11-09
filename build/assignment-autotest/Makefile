@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/hasan/Desktop/workspace
+CMAKE_SOURCE_DIR = /home/hasan/Desktop/assignment-1-brainhasan
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/hasan/Desktop/workspace/build
+CMAKE_BINARY_DIR = /home/hasan/Desktop/assignment-1-brainhasan/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,14 +132,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/hasan/Desktop/workspace/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/hasan/Desktop/workspace/build/CMakeFiles /home/hasan/Desktop/workspace/build/assignment-autotest//CMakeFiles/progress.marks
-	cd /home/hasan/Desktop/workspace/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 assignment-autotest/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hasan/Desktop/workspace/build/CMakeFiles 0
+	cd /home/hasan/Desktop/assignment-1-brainhasan/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/hasan/Desktop/assignment-1-brainhasan/build/CMakeFiles /home/hasan/Desktop/assignment-1-brainhasan/build/assignment-autotest//CMakeFiles/progress.marks
+	cd /home/hasan/Desktop/assignment-1-brainhasan/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 assignment-autotest/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hasan/Desktop/assignment-1-brainhasan/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/hasan/Desktop/workspace/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 assignment-autotest/clean
+	cd /home/hasan/Desktop/assignment-1-brainhasan/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 assignment-autotest/clean
 .PHONY : clean
 
 # The main clean target
@@ -148,22 +148,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/hasan/Desktop/workspace/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 assignment-autotest/preinstall
+	cd /home/hasan/Desktop/assignment-1-brainhasan/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 assignment-autotest/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/hasan/Desktop/workspace/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 assignment-autotest/preinstall
+	cd /home/hasan/Desktop/assignment-1-brainhasan/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 assignment-autotest/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/hasan/Desktop/workspace/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/hasan/Desktop/assignment-1-brainhasan/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 assignment-autotest/CMakeFiles/assignment-autotest.dir/rule:
-	cd /home/hasan/Desktop/workspace/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 assignment-autotest/CMakeFiles/assignment-autotest.dir/rule
+	cd /home/hasan/Desktop/assignment-1-brainhasan/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 assignment-autotest/CMakeFiles/assignment-autotest.dir/rule
 .PHONY : assignment-autotest/CMakeFiles/assignment-autotest.dir/rule
 
 # Convenience name for target.
@@ -172,127 +172,127 @@ assignment-autotest: assignment-autotest/CMakeFiles/assignment-autotest.dir/rule
 
 # fast build rule for target.
 assignment-autotest/fast:
-	cd /home/hasan/Desktop/workspace/build && $(MAKE) $(MAKESILENT) -f assignment-autotest/CMakeFiles/assignment-autotest.dir/build.make assignment-autotest/CMakeFiles/assignment-autotest.dir/build
+	cd /home/hasan/Desktop/assignment-1-brainhasan/build && $(MAKE) $(MAKESILENT) -f assignment-autotest/CMakeFiles/assignment-autotest.dir/build.make assignment-autotest/CMakeFiles/assignment-autotest.dir/build
 .PHONY : assignment-autotest/fast
 
 # target to build an object file
 __/examples/autotest-validate/autotest-validate.o:
-	cd /home/hasan/Desktop/workspace/build && $(MAKE) $(MAKESILENT) -f assignment-autotest/CMakeFiles/assignment-autotest.dir/build.make assignment-autotest/CMakeFiles/assignment-autotest.dir/__/examples/autotest-validate/autotest-validate.o
+	cd /home/hasan/Desktop/assignment-1-brainhasan/build && $(MAKE) $(MAKESILENT) -f assignment-autotest/CMakeFiles/assignment-autotest.dir/build.make assignment-autotest/CMakeFiles/assignment-autotest.dir/__/examples/autotest-validate/autotest-validate.o
 .PHONY : __/examples/autotest-validate/autotest-validate.o
 
 # target to preprocess a source file
 __/examples/autotest-validate/autotest-validate.i:
-	cd /home/hasan/Desktop/workspace/build && $(MAKE) $(MAKESILENT) -f assignment-autotest/CMakeFiles/assignment-autotest.dir/build.make assignment-autotest/CMakeFiles/assignment-autotest.dir/__/examples/autotest-validate/autotest-validate.i
+	cd /home/hasan/Desktop/assignment-1-brainhasan/build && $(MAKE) $(MAKESILENT) -f assignment-autotest/CMakeFiles/assignment-autotest.dir/build.make assignment-autotest/CMakeFiles/assignment-autotest.dir/__/examples/autotest-validate/autotest-validate.i
 .PHONY : __/examples/autotest-validate/autotest-validate.i
 
 # target to generate assembly for a file
 __/examples/autotest-validate/autotest-validate.s:
-	cd /home/hasan/Desktop/workspace/build && $(MAKE) $(MAKESILENT) -f assignment-autotest/CMakeFiles/assignment-autotest.dir/build.make assignment-autotest/CMakeFiles/assignment-autotest.dir/__/examples/autotest-validate/autotest-validate.s
+	cd /home/hasan/Desktop/assignment-1-brainhasan/build && $(MAKE) $(MAKESILENT) -f assignment-autotest/CMakeFiles/assignment-autotest.dir/build.make assignment-autotest/CMakeFiles/assignment-autotest.dir/__/examples/autotest-validate/autotest-validate.s
 .PHONY : __/examples/autotest-validate/autotest-validate.s
 
 # target to build an object file
 __/student-test/assignment1/Test_validate_username.o:
-	cd /home/hasan/Desktop/workspace/build && $(MAKE) $(MAKESILENT) -f assignment-autotest/CMakeFiles/assignment-autotest.dir/build.make assignment-autotest/CMakeFiles/assignment-autotest.dir/__/student-test/assignment1/Test_validate_username.o
+	cd /home/hasan/Desktop/assignment-1-brainhasan/build && $(MAKE) $(MAKESILENT) -f assignment-autotest/CMakeFiles/assignment-autotest.dir/build.make assignment-autotest/CMakeFiles/assignment-autotest.dir/__/student-test/assignment1/Test_validate_username.o
 .PHONY : __/student-test/assignment1/Test_validate_username.o
 
 # target to preprocess a source file
 __/student-test/assignment1/Test_validate_username.i:
-	cd /home/hasan/Desktop/workspace/build && $(MAKE) $(MAKESILENT) -f assignment-autotest/CMakeFiles/assignment-autotest.dir/build.make assignment-autotest/CMakeFiles/assignment-autotest.dir/__/student-test/assignment1/Test_validate_username.i
+	cd /home/hasan/Desktop/assignment-1-brainhasan/build && $(MAKE) $(MAKESILENT) -f assignment-autotest/CMakeFiles/assignment-autotest.dir/build.make assignment-autotest/CMakeFiles/assignment-autotest.dir/__/student-test/assignment1/Test_validate_username.i
 .PHONY : __/student-test/assignment1/Test_validate_username.i
 
 # target to generate assembly for a file
 __/student-test/assignment1/Test_validate_username.s:
-	cd /home/hasan/Desktop/workspace/build && $(MAKE) $(MAKESILENT) -f assignment-autotest/CMakeFiles/assignment-autotest.dir/build.make assignment-autotest/CMakeFiles/assignment-autotest.dir/__/student-test/assignment1/Test_validate_username.s
+	cd /home/hasan/Desktop/assignment-1-brainhasan/build && $(MAKE) $(MAKESILENT) -f assignment-autotest/CMakeFiles/assignment-autotest.dir/build.make assignment-autotest/CMakeFiles/assignment-autotest.dir/__/student-test/assignment1/Test_validate_username.s
 .PHONY : __/student-test/assignment1/Test_validate_username.s
 
 # target to build an object file
 __/student-test/assignment1/Test_validate_username_Runner.o:
-	cd /home/hasan/Desktop/workspace/build && $(MAKE) $(MAKESILENT) -f assignment-autotest/CMakeFiles/assignment-autotest.dir/build.make assignment-autotest/CMakeFiles/assignment-autotest.dir/__/student-test/assignment1/Test_validate_username_Runner.o
+	cd /home/hasan/Desktop/assignment-1-brainhasan/build && $(MAKE) $(MAKESILENT) -f assignment-autotest/CMakeFiles/assignment-autotest.dir/build.make assignment-autotest/CMakeFiles/assignment-autotest.dir/__/student-test/assignment1/Test_validate_username_Runner.o
 .PHONY : __/student-test/assignment1/Test_validate_username_Runner.o
 
 # target to preprocess a source file
 __/student-test/assignment1/Test_validate_username_Runner.i:
-	cd /home/hasan/Desktop/workspace/build && $(MAKE) $(MAKESILENT) -f assignment-autotest/CMakeFiles/assignment-autotest.dir/build.make assignment-autotest/CMakeFiles/assignment-autotest.dir/__/student-test/assignment1/Test_validate_username_Runner.i
+	cd /home/hasan/Desktop/assignment-1-brainhasan/build && $(MAKE) $(MAKESILENT) -f assignment-autotest/CMakeFiles/assignment-autotest.dir/build.make assignment-autotest/CMakeFiles/assignment-autotest.dir/__/student-test/assignment1/Test_validate_username_Runner.i
 .PHONY : __/student-test/assignment1/Test_validate_username_Runner.i
 
 # target to generate assembly for a file
 __/student-test/assignment1/Test_validate_username_Runner.s:
-	cd /home/hasan/Desktop/workspace/build && $(MAKE) $(MAKESILENT) -f assignment-autotest/CMakeFiles/assignment-autotest.dir/build.make assignment-autotest/CMakeFiles/assignment-autotest.dir/__/student-test/assignment1/Test_validate_username_Runner.s
+	cd /home/hasan/Desktop/assignment-1-brainhasan/build && $(MAKE) $(MAKESILENT) -f assignment-autotest/CMakeFiles/assignment-autotest.dir/build.make assignment-autotest/CMakeFiles/assignment-autotest.dir/__/student-test/assignment1/Test_validate_username_Runner.s
 .PHONY : __/student-test/assignment1/Test_validate_username_Runner.s
 
 # target to build an object file
 test/assignment1/Test_assignment_validate.o:
-	cd /home/hasan/Desktop/workspace/build && $(MAKE) $(MAKESILENT) -f assignment-autotest/CMakeFiles/assignment-autotest.dir/build.make assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate.o
+	cd /home/hasan/Desktop/assignment-1-brainhasan/build && $(MAKE) $(MAKESILENT) -f assignment-autotest/CMakeFiles/assignment-autotest.dir/build.make assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate.o
 .PHONY : test/assignment1/Test_assignment_validate.o
 
 # target to preprocess a source file
 test/assignment1/Test_assignment_validate.i:
-	cd /home/hasan/Desktop/workspace/build && $(MAKE) $(MAKESILENT) -f assignment-autotest/CMakeFiles/assignment-autotest.dir/build.make assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate.i
+	cd /home/hasan/Desktop/assignment-1-brainhasan/build && $(MAKE) $(MAKESILENT) -f assignment-autotest/CMakeFiles/assignment-autotest.dir/build.make assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate.i
 .PHONY : test/assignment1/Test_assignment_validate.i
 
 # target to generate assembly for a file
 test/assignment1/Test_assignment_validate.s:
-	cd /home/hasan/Desktop/workspace/build && $(MAKE) $(MAKESILENT) -f assignment-autotest/CMakeFiles/assignment-autotest.dir/build.make assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate.s
+	cd /home/hasan/Desktop/assignment-1-brainhasan/build && $(MAKE) $(MAKESILENT) -f assignment-autotest/CMakeFiles/assignment-autotest.dir/build.make assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate.s
 .PHONY : test/assignment1/Test_assignment_validate.s
 
 # target to build an object file
 test/assignment1/Test_assignment_validate_Runner.o:
-	cd /home/hasan/Desktop/workspace/build && $(MAKE) $(MAKESILENT) -f assignment-autotest/CMakeFiles/assignment-autotest.dir/build.make assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate_Runner.o
+	cd /home/hasan/Desktop/assignment-1-brainhasan/build && $(MAKE) $(MAKESILENT) -f assignment-autotest/CMakeFiles/assignment-autotest.dir/build.make assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate_Runner.o
 .PHONY : test/assignment1/Test_assignment_validate_Runner.o
 
 # target to preprocess a source file
 test/assignment1/Test_assignment_validate_Runner.i:
-	cd /home/hasan/Desktop/workspace/build && $(MAKE) $(MAKESILENT) -f assignment-autotest/CMakeFiles/assignment-autotest.dir/build.make assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate_Runner.i
+	cd /home/hasan/Desktop/assignment-1-brainhasan/build && $(MAKE) $(MAKESILENT) -f assignment-autotest/CMakeFiles/assignment-autotest.dir/build.make assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate_Runner.i
 .PHONY : test/assignment1/Test_assignment_validate_Runner.i
 
 # target to generate assembly for a file
 test/assignment1/Test_assignment_validate_Runner.s:
-	cd /home/hasan/Desktop/workspace/build && $(MAKE) $(MAKESILENT) -f assignment-autotest/CMakeFiles/assignment-autotest.dir/build.make assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate_Runner.s
+	cd /home/hasan/Desktop/assignment-1-brainhasan/build && $(MAKE) $(MAKESILENT) -f assignment-autotest/CMakeFiles/assignment-autotest.dir/build.make assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate_Runner.s
 .PHONY : test/assignment1/Test_assignment_validate_Runner.s
 
 # target to build an object file
 test/assignment1/Test_hello.o:
-	cd /home/hasan/Desktop/workspace/build && $(MAKE) $(MAKESILENT) -f assignment-autotest/CMakeFiles/assignment-autotest.dir/build.make assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello.o
+	cd /home/hasan/Desktop/assignment-1-brainhasan/build && $(MAKE) $(MAKESILENT) -f assignment-autotest/CMakeFiles/assignment-autotest.dir/build.make assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello.o
 .PHONY : test/assignment1/Test_hello.o
 
 # target to preprocess a source file
 test/assignment1/Test_hello.i:
-	cd /home/hasan/Desktop/workspace/build && $(MAKE) $(MAKESILENT) -f assignment-autotest/CMakeFiles/assignment-autotest.dir/build.make assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello.i
+	cd /home/hasan/Desktop/assignment-1-brainhasan/build && $(MAKE) $(MAKESILENT) -f assignment-autotest/CMakeFiles/assignment-autotest.dir/build.make assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello.i
 .PHONY : test/assignment1/Test_hello.i
 
 # target to generate assembly for a file
 test/assignment1/Test_hello.s:
-	cd /home/hasan/Desktop/workspace/build && $(MAKE) $(MAKESILENT) -f assignment-autotest/CMakeFiles/assignment-autotest.dir/build.make assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello.s
+	cd /home/hasan/Desktop/assignment-1-brainhasan/build && $(MAKE) $(MAKESILENT) -f assignment-autotest/CMakeFiles/assignment-autotest.dir/build.make assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello.s
 .PHONY : test/assignment1/Test_hello.s
 
 # target to build an object file
 test/assignment1/Test_hello_Runner.o:
-	cd /home/hasan/Desktop/workspace/build && $(MAKE) $(MAKESILENT) -f assignment-autotest/CMakeFiles/assignment-autotest.dir/build.make assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello_Runner.o
+	cd /home/hasan/Desktop/assignment-1-brainhasan/build && $(MAKE) $(MAKESILENT) -f assignment-autotest/CMakeFiles/assignment-autotest.dir/build.make assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello_Runner.o
 .PHONY : test/assignment1/Test_hello_Runner.o
 
 # target to preprocess a source file
 test/assignment1/Test_hello_Runner.i:
-	cd /home/hasan/Desktop/workspace/build && $(MAKE) $(MAKESILENT) -f assignment-autotest/CMakeFiles/assignment-autotest.dir/build.make assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello_Runner.i
+	cd /home/hasan/Desktop/assignment-1-brainhasan/build && $(MAKE) $(MAKESILENT) -f assignment-autotest/CMakeFiles/assignment-autotest.dir/build.make assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello_Runner.i
 .PHONY : test/assignment1/Test_hello_Runner.i
 
 # target to generate assembly for a file
 test/assignment1/Test_hello_Runner.s:
-	cd /home/hasan/Desktop/workspace/build && $(MAKE) $(MAKESILENT) -f assignment-autotest/CMakeFiles/assignment-autotest.dir/build.make assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello_Runner.s
+	cd /home/hasan/Desktop/assignment-1-brainhasan/build && $(MAKE) $(MAKESILENT) -f assignment-autotest/CMakeFiles/assignment-autotest.dir/build.make assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello_Runner.s
 .PHONY : test/assignment1/Test_hello_Runner.s
 
 # target to build an object file
 test/unity_runner.o:
-	cd /home/hasan/Desktop/workspace/build && $(MAKE) $(MAKESILENT) -f assignment-autotest/CMakeFiles/assignment-autotest.dir/build.make assignment-autotest/CMakeFiles/assignment-autotest.dir/test/unity_runner.o
+	cd /home/hasan/Desktop/assignment-1-brainhasan/build && $(MAKE) $(MAKESILENT) -f assignment-autotest/CMakeFiles/assignment-autotest.dir/build.make assignment-autotest/CMakeFiles/assignment-autotest.dir/test/unity_runner.o
 .PHONY : test/unity_runner.o
 
 # target to preprocess a source file
 test/unity_runner.i:
-	cd /home/hasan/Desktop/workspace/build && $(MAKE) $(MAKESILENT) -f assignment-autotest/CMakeFiles/assignment-autotest.dir/build.make assignment-autotest/CMakeFiles/assignment-autotest.dir/test/unity_runner.i
+	cd /home/hasan/Desktop/assignment-1-brainhasan/build && $(MAKE) $(MAKESILENT) -f assignment-autotest/CMakeFiles/assignment-autotest.dir/build.make assignment-autotest/CMakeFiles/assignment-autotest.dir/test/unity_runner.i
 .PHONY : test/unity_runner.i
 
 # target to generate assembly for a file
 test/unity_runner.s:
-	cd /home/hasan/Desktop/workspace/build && $(MAKE) $(MAKESILENT) -f assignment-autotest/CMakeFiles/assignment-autotest.dir/build.make assignment-autotest/CMakeFiles/assignment-autotest.dir/test/unity_runner.s
+	cd /home/hasan/Desktop/assignment-1-brainhasan/build && $(MAKE) $(MAKESILENT) -f assignment-autotest/CMakeFiles/assignment-autotest.dir/build.make assignment-autotest/CMakeFiles/assignment-autotest.dir/test/unity_runner.s
 .PHONY : test/unity_runner.s
 
 # Help Target
@@ -343,6 +343,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/hasan/Desktop/workspace/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/hasan/Desktop/assignment-1-brainhasan/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

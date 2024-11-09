@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/hasan/Desktop/workspace
+CMAKE_SOURCE_DIR = /home/hasan/Desktop/assignment-1-brainhasan
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/hasan/Desktop/workspace/build
+CMAKE_BINARY_DIR = /home/hasan/Desktop/assignment-1-brainhasan/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,14 +132,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/hasan/Desktop/workspace/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/hasan/Desktop/workspace/build/CMakeFiles /home/hasan/Desktop/workspace/build/assignment-autotest/Unity/src//CMakeFiles/progress.marks
-	cd /home/hasan/Desktop/workspace/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 assignment-autotest/Unity/src/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hasan/Desktop/workspace/build/CMakeFiles 0
+	cd /home/hasan/Desktop/assignment-1-brainhasan/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/hasan/Desktop/assignment-1-brainhasan/build/CMakeFiles /home/hasan/Desktop/assignment-1-brainhasan/build/assignment-autotest/Unity/src//CMakeFiles/progress.marks
+	cd /home/hasan/Desktop/assignment-1-brainhasan/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 assignment-autotest/Unity/src/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hasan/Desktop/assignment-1-brainhasan/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/hasan/Desktop/workspace/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 assignment-autotest/Unity/src/clean
+	cd /home/hasan/Desktop/assignment-1-brainhasan/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 assignment-autotest/Unity/src/clean
 .PHONY : clean
 
 # The main clean target
@@ -148,22 +148,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/hasan/Desktop/workspace/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 assignment-autotest/Unity/src/preinstall
+	cd /home/hasan/Desktop/assignment-1-brainhasan/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 assignment-autotest/Unity/src/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/hasan/Desktop/workspace/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 assignment-autotest/Unity/src/preinstall
+	cd /home/hasan/Desktop/assignment-1-brainhasan/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 assignment-autotest/Unity/src/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/hasan/Desktop/workspace/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/hasan/Desktop/assignment-1-brainhasan/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 assignment-autotest/Unity/src/CMakeFiles/unity.dir/rule:
-	cd /home/hasan/Desktop/workspace/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 assignment-autotest/Unity/src/CMakeFiles/unity.dir/rule
+	cd /home/hasan/Desktop/assignment-1-brainhasan/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 assignment-autotest/Unity/src/CMakeFiles/unity.dir/rule
 .PHONY : assignment-autotest/Unity/src/CMakeFiles/unity.dir/rule
 
 # Convenience name for target.
@@ -172,22 +172,22 @@ unity: assignment-autotest/Unity/src/CMakeFiles/unity.dir/rule
 
 # fast build rule for target.
 unity/fast:
-	cd /home/hasan/Desktop/workspace/build && $(MAKE) $(MAKESILENT) -f assignment-autotest/Unity/src/CMakeFiles/unity.dir/build.make assignment-autotest/Unity/src/CMakeFiles/unity.dir/build
+	cd /home/hasan/Desktop/assignment-1-brainhasan/build && $(MAKE) $(MAKESILENT) -f assignment-autotest/Unity/src/CMakeFiles/unity.dir/build.make assignment-autotest/Unity/src/CMakeFiles/unity.dir/build
 .PHONY : unity/fast
 
 # target to build an object file
 unity.o:
-	cd /home/hasan/Desktop/workspace/build && $(MAKE) $(MAKESILENT) -f assignment-autotest/Unity/src/CMakeFiles/unity.dir/build.make assignment-autotest/Unity/src/CMakeFiles/unity.dir/unity.o
+	cd /home/hasan/Desktop/assignment-1-brainhasan/build && $(MAKE) $(MAKESILENT) -f assignment-autotest/Unity/src/CMakeFiles/unity.dir/build.make assignment-autotest/Unity/src/CMakeFiles/unity.dir/unity.o
 .PHONY : unity.o
 
 # target to preprocess a source file
 unity.i:
-	cd /home/hasan/Desktop/workspace/build && $(MAKE) $(MAKESILENT) -f assignment-autotest/Unity/src/CMakeFiles/unity.dir/build.make assignment-autotest/Unity/src/CMakeFiles/unity.dir/unity.i
+	cd /home/hasan/Desktop/assignment-1-brainhasan/build && $(MAKE) $(MAKESILENT) -f assignment-autotest/Unity/src/CMakeFiles/unity.dir/build.make assignment-autotest/Unity/src/CMakeFiles/unity.dir/unity.i
 .PHONY : unity.i
 
 # target to generate assembly for a file
 unity.s:
-	cd /home/hasan/Desktop/workspace/build && $(MAKE) $(MAKESILENT) -f assignment-autotest/Unity/src/CMakeFiles/unity.dir/build.make assignment-autotest/Unity/src/CMakeFiles/unity.dir/unity.s
+	cd /home/hasan/Desktop/assignment-1-brainhasan/build && $(MAKE) $(MAKESILENT) -f assignment-autotest/Unity/src/CMakeFiles/unity.dir/build.make assignment-autotest/Unity/src/CMakeFiles/unity.dir/unity.s
 .PHONY : unity.s
 
 # Help Target
@@ -217,6 +217,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/hasan/Desktop/workspace/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/hasan/Desktop/assignment-1-brainhasan/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

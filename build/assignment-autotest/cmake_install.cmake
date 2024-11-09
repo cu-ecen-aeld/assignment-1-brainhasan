@@ -1,4 +1,4 @@
-# Install script for directory: /home/hasan/Desktop/workspace/assignment-autotest
+# Install script for directory: /home/hasan/Desktop/assignment-1-brainhasan/assignment-autotest
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -44,7 +44,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/hasan/Desktop/workspace/build/assignment-autotest/Unity/cmake_install.cmake")
+  include("/home/hasan/Desktop/assignment-1-brainhasan/build/assignment-autotest/Unity/cmake_install.cmake")
 
 endif()
 

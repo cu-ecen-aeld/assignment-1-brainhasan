@@ -1,2 +1,2 @@
 # Hashes of file build rules.
-665332b77a3a01e54caf6aeef2ed6281 /home/hasan/Desktop/workspace/assignment-autotest/test/assignment1/Test_hello_Runner.c
+be45448e96ab5dd6aeea189a5279fff9 /home/hasan/Desktop/assignment-1-brainhasan/assignment-autotest/test/assignment1/Test_hello_Runner.c

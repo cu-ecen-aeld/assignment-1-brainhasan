@@ -8,21 +8,21 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/hasan/Desktop/workspace/examples/autotest-validate/autotest-validate.c" "assignment-autotest/CMakeFiles/assignment-autotest.dir/__/examples/autotest-validate/autotest-validate.o" "gcc" "assignment-autotest/CMakeFiles/assignment-autotest.dir/__/examples/autotest-validate/autotest-validate.o.d"
-  "/home/hasan/Desktop/workspace/student-test/assignment1/Test_validate_username.c" "assignment-autotest/CMakeFiles/assignment-autotest.dir/__/student-test/assignment1/Test_validate_username.o" "gcc" "assignment-autotest/CMakeFiles/assignment-autotest.dir/__/student-test/assignment1/Test_validate_username.o.d"
-  "/home/hasan/Desktop/workspace/student-test/assignment1/Test_validate_username_Runner.c" "assignment-autotest/CMakeFiles/assignment-autotest.dir/__/student-test/assignment1/Test_validate_username_Runner.o" "gcc" "assignment-autotest/CMakeFiles/assignment-autotest.dir/__/student-test/assignment1/Test_validate_username_Runner.o.d"
-  "/home/hasan/Desktop/workspace/assignment-autotest/test/assignment1/Test_assignment_validate.c" "assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate.o" "gcc" "assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate.o.d"
-  "/home/hasan/Desktop/workspace/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c" "assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate_Runner.o" "gcc" "assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate_Runner.o.d"
-  "/home/hasan/Desktop/workspace/assignment-autotest/test/assignment1/Test_hello.c" "assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello.o" "gcc" "assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello.o.d"
-  "/home/hasan/Desktop/workspace/assignment-autotest/test/assignment1/Test_hello_Runner.c" "assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello_Runner.o" "gcc" "assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello_Runner.o.d"
-  "/home/hasan/Desktop/workspace/assignment-autotest/test/unity_runner.c" "assignment-autotest/CMakeFiles/assignment-autotest.dir/test/unity_runner.o" "gcc" "assignment-autotest/CMakeFiles/assignment-autotest.dir/test/unity_runner.o.d"
+  "/home/hasan/Desktop/assignment-1-brainhasan/examples/autotest-validate/autotest-validate.c" "assignment-autotest/CMakeFiles/assignment-autotest.dir/__/examples/autotest-validate/autotest-validate.o" "gcc" "assignment-autotest/CMakeFiles/assignment-autotest.dir/__/examples/autotest-validate/autotest-validate.o.d"
+  "/home/hasan/Desktop/assignment-1-brainhasan/student-test/assignment1/Test_validate_username.c" "assignment-autotest/CMakeFiles/assignment-autotest.dir/__/student-test/assignment1/Test_validate_username.o" "gcc" "assignment-autotest/CMakeFiles/assignment-autotest.dir/__/student-test/assignment1/Test_validate_username.o.d"
+  "/home/hasan/Desktop/assignment-1-brainhasan/student-test/assignment1/Test_validate_username_Runner.c" "assignment-autotest/CMakeFiles/assignment-autotest.dir/__/student-test/assignment1/Test_validate_username_Runner.o" "gcc" "assignment-autotest/CMakeFiles/assignment-autotest.dir/__/student-test/assignment1/Test_validate_username_Runner.o.d"
+  "/home/hasan/Desktop/assignment-1-brainhasan/assignment-autotest/test/assignment1/Test_assignment_validate.c" "assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate.o" "gcc" "assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate.o.d"
+  "/home/hasan/Desktop/assignment-1-brainhasan/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c" "assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate_Runner.o" "gcc" "assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate_Runner.o.d"
+  "/home/hasan/Desktop/assignment-1-brainhasan/assignment-autotest/test/assignment1/Test_hello.c" "assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello.o" "gcc" "assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello.o.d"
+  "/home/hasan/Desktop/assignment-1-brainhasan/assignment-autotest/test/assignment1/Test_hello_Runner.c" "assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello_Runner.o" "gcc" "assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello_Runner.o.d"
+  "/home/hasan/Desktop/assignment-1-brainhasan/assignment-autotest/test/unity_runner.c" "assignment-autotest/CMakeFiles/assignment-autotest.dir/test/unity_runner.o" "gcc" "assignment-autotest/CMakeFiles/assignment-autotest.dir/test/unity_runner.o.d"
   )
 
 # Pairs of files generated by the same build rule.
 set(CMAKE_MULTIPLE_OUTPUT_PAIRS
-  "/home/hasan/Desktop/workspace/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c" "/home/hasan/Desktop/workspace/assignment-autotest/test/assignment1/Test_hello_Runner.c"
-  "/home/hasan/Desktop/workspace/assignment-autotest/test/unity_runner.c" "/home/hasan/Desktop/workspace/assignment-autotest/test/assignment1/Test_hello_Runner.c"
-  "/home/hasan/Desktop/workspace/student-test/assignment1/Test_validate_username_Runner.c" "/home/hasan/Desktop/workspace/assignment-autotest/test/assignment1/Test_hello_Runner.c"
+  "/home/hasan/Desktop/assignment-1-brainhasan/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c" "/home/hasan/Desktop/assignment-1-brainhasan/assignment-autotest/test/assignment1/Test_hello_Runner.c"
+  "/home/hasan/Desktop/assignment-1-brainhasan/assignment-autotest/test/unity_runner.c" "/home/hasan/Desktop/assignment-1-brainhasan/assignment-autotest/test/assignment1/Test_hello_Runner.c"
+  "/home/hasan/Desktop/assignment-1-brainhasan/student-test/assignment1/Test_validate_username_Runner.c" "/home/hasan/Desktop/assignment-1-brainhasan/assignment-autotest/test/assignment1/Test_hello_Runner.c"
   )
 
 

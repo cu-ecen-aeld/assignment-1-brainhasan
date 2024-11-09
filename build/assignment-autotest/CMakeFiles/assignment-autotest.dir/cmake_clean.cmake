@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
-  "/home/hasan/Desktop/workspace/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c"
-  "/home/hasan/Desktop/workspace/assignment-autotest/test/assignment1/Test_hello_Runner.c"
-  "/home/hasan/Desktop/workspace/assignment-autotest/test/unity_runner.c"
-  "/home/hasan/Desktop/workspace/student-test/assignment1/Test_validate_username_Runner.c"
+  "/home/hasan/Desktop/assignment-1-brainhasan/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c"
+  "/home/hasan/Desktop/assignment-1-brainhasan/assignment-autotest/test/assignment1/Test_hello_Runner.c"
+  "/home/hasan/Desktop/assignment-1-brainhasan/assignment-autotest/test/unity_runner.c"
+  "/home/hasan/Desktop/assignment-1-brainhasan/student-test/assignment1/Test_validate_username_Runner.c"
   "CMakeFiles/assignment-autotest.dir/__/examples/autotest-validate/autotest-validate.o"
   "CMakeFiles/assignment-autotest.dir/__/examples/autotest-validate/autotest-validate.o.d"
   "CMakeFiles/assignment-autotest.dir/__/student-test/assignment1/Test_validate_username.o"

@@ -1,8 +1,8 @@
 assignment-autotest/Unity/src/CMakeFiles/unity.dir/unity.o: \
- /home/hasan/Desktop/workspace/assignment-autotest/Unity/src/unity.c \
+ /home/hasan/Desktop/assignment-1-brainhasan/assignment-autotest/Unity/src/unity.c \
  /usr/include/stdc-predef.h \
- /home/hasan/Desktop/workspace/assignment-autotest/Unity/src/unity.h \
- /home/hasan/Desktop/workspace/assignment-autotest/Unity/src/unity_internals.h \
+ /home/hasan/Desktop/assignment-1-brainhasan/assignment-autotest/Unity/src/unity.h \
+ /home/hasan/Desktop/assignment-1-brainhasan/assignment-autotest/Unity/src/unity_internals.h \
  /usr/include/setjmp.h /usr/include/features.h \
  /usr/include/features-time64.h \
  /usr/include/x86_64-linux-gnu/bits/wordsize.h \

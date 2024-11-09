@@ -1,8 +1,8 @@
 assignment-autotest/CMakeFiles/assignment-autotest.dir/__/student-test/assignment1/Test_validate_username.o: \
- /home/hasan/Desktop/workspace/student-test/assignment1/Test_validate_username.c \
+ /home/hasan/Desktop/assignment-1-brainhasan/student-test/assignment1/Test_validate_username.c \
  /usr/include/stdc-predef.h \
- /home/hasan/Desktop/workspace/assignment-autotest/Unity/src/unity.h \
- /home/hasan/Desktop/workspace/assignment-autotest/Unity/src/unity_internals.h \
+ /home/hasan/Desktop/assignment-1-brainhasan/assignment-autotest/Unity/src/unity.h \
+ /home/hasan/Desktop/assignment-1-brainhasan/assignment-autotest/Unity/src/unity_internals.h \
  /usr/include/setjmp.h /usr/include/features.h \
  /usr/include/features-time64.h \
  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
@@ -75,10 +75,10 @@ assignment-autotest/CMakeFiles/assignment-autotest.dir/__/student-test/assignmen
  /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
  /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h /usr/include/alloca.h \
  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
- /home/hasan/Desktop/workspace/student-test/assignment1/../../examples/autotest-validate/autotest-validate.h \
+ /home/hasan/Desktop/assignment-1-brainhasan/student-test/assignment1/../../examples/autotest-validate/autotest-validate.h \
  /usr/include/string.h \
  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
  /usr/include/strings.h \
- /home/hasan/Desktop/workspace/student-test/assignment1/../../assignment-autotest/test/assignment1/username-from-conf-file.h \
+ /home/hasan/Desktop/assignment-1-brainhasan/student-test/assignment1/../../assignment-autotest/test/assignment1/username-from-conf-file.h \
  /usr/include/ctype.h

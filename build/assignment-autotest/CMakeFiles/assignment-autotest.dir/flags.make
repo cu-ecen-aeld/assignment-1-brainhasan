@@ -4,7 +4,7 @@
 # compile C with /usr/bin/cc
 C_DEFINES = 
 
-C_INCLUDES = -I/home/hasan/Desktop/workspace/assignment-autotest/Unity/src -I/home/hasan/Desktop/workspace/assignment-autotest/. -I/home/hasan/Desktop/workspace/assignment-autotest/..
+C_INCLUDES = -I/home/hasan/Desktop/assignment-1-brainhasan/assignment-autotest/Unity/src -I/home/hasan/Desktop/assignment-1-brainhasan/assignment-autotest/. -I/home/hasan/Desktop/assignment-1-brainhasan/assignment-autotest/..
 
 C_FLAGS =  -Wall -Werror -g
 
